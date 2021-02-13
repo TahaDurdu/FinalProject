@@ -10,3 +10,5 @@ C:\Users\SAVAS\source\repos\FinalProject\DataAccess\obj\Debug\netstandard2.0\Dat
 C:\Users\SAVAS\source\repos\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\SAVAS\source\repos\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\SAVAS\source\repos\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\SAVAS\source\repos\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\SAVAS\source\repos\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
