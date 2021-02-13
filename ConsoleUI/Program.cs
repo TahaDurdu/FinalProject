@@ -12,7 +12,12 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            ProductTest();
+           // CategoryTest();
+        }
 
+        private static void CategoryTwst()
+        {
             CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
             foreach (var category in categoryManager.GetAll())
             {
@@ -24,9 +29,9 @@ namespace ConsoleUI
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetByUnitPrice(50, 100))
+            foreach (var product in productManager.GetProductDetail())
             {
-                Console.WriteLine(product.ProductName);
+                Console.WriteLine(product.ProductName+ "/"+ product.CategoryName);
             }
         }
     }
